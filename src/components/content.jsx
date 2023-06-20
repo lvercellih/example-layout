@@ -73,330 +73,60 @@ export function Content() {
         </span>
       </div>
       <GridLayout>
-        <div className="w-full">
-          <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
-            <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-              Project Reffered
-            </p>
-            <div className="flex items-end my-6 space-x-2">
-              <p className="text-5xl font-bold text-black dark:text-white">
-                12
-              </p>
-              <span className="flex items-center text-xl font-bold text-green-500">
-                <ArrowUpIcon />
-                22%
-              </span>
-            </div>
-            <div className="dark:text-white">
-                <div className="flex items-center justify-between pb-2 mb-2 text-sm border-b border-gray-200 sm:space-x-12">
-                    <p>
-                      Unique URL
-                    </p>
-                    <div className="flex items-end text-xs">
-                        34
-                        <span className="flex items-center">
-                            <ArrowUpIcon extraClass='text-green-500' />
-                            22%
-                        </span>
-                    </div>
-                </div>
-                <div className="flex items-center justify-between pb-2 mb-2 space-x-12 text-sm border-b border-gray-200 md:space-x-24">
-                    <p>
-                        Embedded form
-                    </p>
-                    <div className="flex items-end text-xs">
-                        13
-                        <span className="flex items-center">
-                            <ArrowUpIcon extraClass='text-green-500' />
-                            12%
-                        </span>
-                    </div>
-                </div>
-                <div className="flex items-center justify-between space-x-12 text-sm md:space-x-24">
-                    <p>
-                        New visitor
-                    </p>
-                    <div className="flex items-end text-xs">
-                        45
-                        <span className="flex items-center">
-                            <ArrowUpIcon extraClass='text-green-500' />
-                            41%
-                        </span>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div className="w-full">
-            <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
-                <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-                    Project Paid
-                </p>
-                <div className="flex items-end my-6 space-x-2">
-                    <p className="text-5xl font-bold text-black dark:text-white">
-                        23
-                    </p>
-                    <span className="flex items-center text-xl font-bold text-green-500">
-                        <ArrowUpIcon />
-                        12%
-                    </span>
-                </div>
-                <div className="dark:text-white">
-                    <div className="flex items-center justify-between pb-2 mb-2 space-x-12 text-sm border-b border-gray-200 md:space-x-24">
-                        <p>
-                            User paid
-                        </p>
-                        <div className="flex items-end text-xs">
-                            21
-                            <span className="flex items-center">
-                                <ArrowUpIcon extraClass='text-green-500' />
-                                20%
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-between pb-2 mb-2 space-x-12 text-sm border-b border-gray-200 md:space-x-24">
-                        <p>
-                            Income
-                        </p>
-                        <div className="flex items-end text-xs">
-                            10
-                            <span className="flex items-center">
-                                <ArrowUpIcon extraClass='text-green-500' />
-                                2%
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-between space-x-12 text-sm md:space-x-24">
-                        <p>
-                            Royal tees
-                        </p>
-                        <div className="flex items-end text-xs">
-                            434
-                            <span className="flex items-center">
-                                <ArrowDownIcon extraClass={'text-red-500'} />
-                                12%
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="w-full">
-            <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
-                <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-                    New features
-                </p>
-                <div className="flex items-end my-6 space-x-2">
-                    <p className="text-5xl font-bold text-black dark:text-white">
-                        12
-                    </p>
-                    <span className="flex items-center text-xl font-bold text-red-500">
-                        <ArrowDownIcon />
-                        2%
-                    </span>
-                </div>
-                <div className="dark:text-white">
-                    <div className="flex items-center justify-between pb-2 mb-2 space-x-12 text-sm border-b border-gray-200 md:space-x-24">
-                        <p>
-                            Down
-                        </p>
-                        <div className="flex items-end text-xs">
-                            34
-                            <span className="flex items-center">
-                                <ArrowDownIcon extraClass={'text-red-500'} />
-                                22%
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-between pb-2 mb-2 space-x-12 text-sm border-b border-gray-200 md:space-x-24">
-                        <p>
-                            Up
-                        </p>
-                        <div className="flex items-end text-xs">
-                            13
-                            <span className="flex items-center">
-                                <ArrowUpIcon extraClass='text-green-500' />
-                                12%
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-between space-x-12 text-sm md:space-x-24">
-                        <p>
-                            No developed
-                        </p>
-                        <div className="flex items-end text-xs">
-                            45
-                            <span className="flex items-center">
-                                <ArrowDownIcon extraClass={'text-red-500'} />
-                                41%
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="w-full">
-            <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
-                <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-                    Sign in
-                </p>
-                <div className="flex items-end my-6 space-x-2">
-                    <p className="text-5xl font-bold text-black dark:text-white">
-                        16
-                    </p>
-                    <span className="flex items-center text-xl font-bold text-red-500">
-                        <ArrowDownIcon />
-                        14%
-                    </span>
-                </div>
-                <div className="dark:text-white">
-                    <div className="flex items-center justify-between pb-2 mb-2 space-x-12 text-sm border-b border-gray-200 md:space-x-24">
-                        <p>
-                            Amercia
-                        </p>
-                        <div className="flex items-end text-xs">
-                            43
-                            <span className="flex items-center">
-                                <ArrowDownIcon extraClass={'text-red-500'} />
-                                12%
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-between pb-2 mb-2 space-x-12 text-sm border-b border-gray-200 md:space-x-24">
-                        <p>
-                            Europe
-                        </p>
-                        <div className="flex items-end text-xs">
-                            133
-                            <span className="flex items-center">
-                                <ArrowUpIcon extraClass='text-green-500' />
-                                19%
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-between space-x-12 text-sm md:space-x-24">
-                        <p>
-                            Asia
-                        </p>
-                        <div className="flex items-end text-xs">
-                            23
-                            <span className="flex items-center">
-                                <ArrowDownIcon extraClass={'text-red-500'} />
-                                4%
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="w-full">
-            <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
-                <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-                    Sales
-                </p>
-                <div className="flex items-end my-6 space-x-2">
-                    <p className="text-5xl font-bold text-black dark:text-white">
-                        9
-                    </p>
-                    <span className="flex items-center text-xl font-bold text-green-500">
-                        <ArrowUpIcon />
-                        34%
-                    </span>
-                </div>
-                <div className="dark:text-white">
-                    <div className="flex items-center justify-between pb-2 mb-2 space-x-12 text-sm border-b border-gray-200 md:space-x-24">
-                        <p>
-                            Templates
-                        </p>
-                        <div className="flex items-end text-xs">
-                            345
-                            <span className="flex items-center">
-                                <ArrowDownIcon extraClass={'text-red-500'} />
-                                12%
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-between pb-2 mb-2 space-x-12 text-sm border-b border-gray-200 md:space-x-24">
-                        <p>
-                            Components
-                        </p>
-                        <div className="flex items-end text-xs">
-                            139
-                            <span className="flex items-center">
-                                <ArrowUpIcon extraClass='text-green-500' />
-                                10%
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-between space-x-12 text-sm md:space-x-24">
-                        <p>
-                            Icons
-                        </p>
-                        <div className="flex items-end text-xs">
-                            421
-                            <span className="flex items-center">
-                                <ArrowDownIcon extraClass={'text-red-500'} />
-                                4%
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="w-full">
-            <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
-                <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
-                    Maintenance
-                </p>
-                <div className="flex items-end my-6 space-x-2">
-                    <p className="text-5xl font-bold text-black dark:text-white">
-                        15
-                    </p>
-                    <span className="flex items-center text-xl font-bold text-green-500">
-                        <ArrowUpIcon />
-                        34%
-                    </span>
-                </div>
-                <div className="dark:text-white">
-                    <div className="flex items-center justify-between pb-2 mb-2 space-x-12 text-sm border-b border-gray-200 md:space-x-24">
-                        <p>
-                            Cloud
-                        </p>
-                        <div className="flex items-end text-xs">
-                            123
-                            <span className="flex items-center">
-                                <ArrowDownIcon extraClass={'text-red-500'} />
-                                22%
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-between pb-2 mb-2 space-x-12 text-sm border-b border-gray-200 md:space-x-24">
-                        <p>
-                            Infra
-                        </p>
-                        <div className="flex items-end text-xs">
-                            134
-                            <span className="flex items-center">
-                                <ArrowUpIcon extraClass='text-green-500' />
-                                9%
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-between space-x-12 text-sm md:space-x-24">
-                        <p>
-                            Office
-                        </p>
-                        <div className="flex items-end text-xs">
-                            23
-                            <span className="flex items-center">
-                                <ArrowUpIcon extraClass='text-green-500' />
-                                41%
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Card
+          title='Project Reffered'
+          hightlight={{ value: '12', percent: '22', icon: <ArrowUpIcon />, percentExtraClass: 'text-green-500' }}
+          rows={[
+            { caption: 'Unique URL', value: '34', icon: <ArrowUpIcon extraClass='text-green-500' />, percent: '22' },
+            { caption: 'Embedded form', value: '13', icon: <ArrowUpIcon extraClass='text-green-500' />, percent: '12' },
+            { caption: 'New visitor', value: '45', icon: <ArrowUpIcon extraClass='text-green-500' />, percent: '41' },
+          ]}
+        />
+        <Card
+          title='Project Paid'
+          hightlight={{ value: '23', percent: '12', icon: <ArrowUpIcon />, percentExtraClass: 'text-green-500' }}
+          rows={[
+            { caption: 'User paid', value: '21', icon: <ArrowUpIcon extraClass='text-green-500' />, percent: '20' },
+            { caption: 'Income', value: '10', icon: <ArrowUpIcon extraClass='text-green-500' />, percent: '02' },
+            { caption: 'Royal tees', value: '434', icon: <ArrowDownIcon extraClass='text-red-500' />, percent: '12' },
+          ]}
+        />
+        <Card
+          title='New features'
+          hightlight={{ value: '12', percent: '2', icon: <ArrowDownIcon />, percentExtraClass: 'text-red-500' }}
+          rows={[
+            { caption: 'Down', value: '34', icon: <ArrowDownIcon extraClass='text-red-500' />, percent: '22' },
+            { caption: 'Up', value: '13', icon: <ArrowUpIcon extraClass='text-green-500' />, percent: '12' },
+            { caption: 'No developed', value: '45', icon: <ArrowDownIcon extraClass='text-red-500' />, percent: '41' },
+          ]}
+        />
+        <Card
+          title='Sign in'
+          hightlight={{ value: '16', percent: '14', icon: <ArrowDownIcon />, percentExtraClass: 'text-red-500' }}
+          rows={[
+            { caption: 'Amercia', value: '43', icon: <ArrowDownIcon extraClass='text-red-500' />, percent: '12' },
+            { caption: 'Europe', value: '133', icon: <ArrowUpIcon extraClass='text-green-500' />, percent: '19' },
+            { caption: 'Asia', value: '23', icon: <ArrowDownIcon extraClass='text-red-500' />, percent: '04' },
+          ]}
+        />
+        <Card
+          title='Sales'
+          hightlight={{ value: '9', percent: '34', icon: <ArrowUpIcon />, percentExtraClass: 'text-green-500' }}
+          rows={[
+            { caption: 'Templates', value: '345', icon: <ArrowDownIcon extraClass='text-red-500' />, percent: '12' },
+            { caption: 'Components', value: '139', icon: <ArrowUpIcon extraClass='text-green-500' />, percent: '10' },
+            { caption: 'Icons', value: '421', icon: <ArrowDownIcon extraClass='text-red-500' />, percent: '04' },
+          ]}
+        />
+        <Card
+          title='Maintenance'
+          hightlight={{ value: '15', percent: '34', icon: <ArrowUpIcon />, percentExtraClass: 'text-green-500' }}
+          rows={[
+            { caption: 'Cloud', value: '123', icon: <ArrowDownIcon extraClass='text-red-500' />, percent: '22' },
+            { caption: 'Infra', value: '134', icon: <ArrowUpIcon extraClass='text-green-500' />, percent: '09' },
+            { caption: 'Office', value: '23', icon: <ArrowUpIcon extraClass='text-green-500' />, percent: '41' },
+          ]}
+        />
       </GridLayout>
     </div>
   )
@@ -406,6 +136,50 @@ function GridLayout({ children }) {
   return (
     <div className="grid grid-cols-1 gap-4 my-4 md:grid-cols-2 lg:grid-cols-3">
       {children}
+    </div>
+  )
+}
+
+/**
+ * 
+ * @param {object} param0
+ * @param {object} param0.hightlight { value, icon, percent, percentExtraClass }
+ * @param {object} param0.rows { caption, value, icon, percent }
+ * @returns 
+ */
+function Card({ title, hightlight, rows }) {
+  return (
+    <div className="w-full">
+      <div className="relative w-full px-4 py-6 bg-white shadow-lg dark:bg-gray-700">
+        <p className="text-sm font-semibold text-gray-700 border-b border-gray-200 w-max dark:text-white">
+          {title}
+        </p>
+        <div className="flex items-end my-6 space-x-2">
+          <p className="text-5xl font-bold text-black dark:text-white">
+            {hightlight.value}
+          </p>
+          <span className={`flex items-center text-xl font-bold ${hightlight.percentExtraClass}`}>
+            {hightlight.icon}
+            {hightlight.percent}%
+          </span>
+        </div>
+        <div className="dark:text-white">
+          {rows?.length && rows.map((row, index, { length }) => (
+            <div key={index} className={`flex items-center justify-between space-x-12 text-sm md:space-x-24 ${index + 1 < length && 'mb-2 pb-2 border-b border-gray-200'}`}>
+              <p>
+                {row.caption}
+              </p>
+              <div className="flex items-end text-xs">
+                {row.value}
+                <span className="flex items-center">
+                  {row.icon}
+                  {row.percent}%
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   )
 }
