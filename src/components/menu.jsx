@@ -3,20 +3,20 @@ import { FeedbackIcon, FolderIcon, HomeIcon, ReferedProjectsIcon } from './icons
 
 export function Menu() {
   return (
-    <MenuLayout title='Plannifer'>
-      <MenuItem to='/home' icon={<HomeIcon />} label='Home' />
-      <MenuItem to='/refprojects' icon={<ReferedProjectsIcon />} label={<>
-        Refered Projects
-        <MenuBadge content='0' />
-        </>} />
-      <MenuItem to='/resources' icon={<FolderIcon />} label='Resources' />
-      <MenuItem to='/feedback' icon={<FeedbackIcon />} label='Store feedback' />
-      <MenuItem to='/test' icon={<HomeIcon />} label='Test' />
-    </MenuLayout>
+    <MenuLayout
+      title='Plannifer' 
+      items={[
+        { to: '/home', icon: <HomeIcon />, label: 'Home' },
+        { to: '/refprojects', icon: <ReferedProjectsIcon />, label: <>Refered Projects<MenuBadge content='0' /></> },
+        { to: '/resources', icon: <FolderIcon />, label: 'Resources' },
+        { to: '/feedback', icon: <FeedbackIcon />, label: 'Store feedback'  },
+        { to: '/test', icon: <HomeIcon />, label: 'Test' },
+      ]}
+    />
   )
 }
 
-function MenuLayout({ title, children }) {
+function MenuLayout({ title, items=[] }) {
   return (
     <div className="relative hidden h-screen shadow-lg lg:block w-80">
       <div className="h-full bg-white dark:bg-gray-700">
@@ -27,7 +27,7 @@ function MenuLayout({ title, children }) {
         </div>
         <nav className="mt-6">
           <div>
-            {children}
+            {items?.length && items.map(item => <MenuItem key={item.to} {...item} />)}
           </div>
         </nav>
       </div>
@@ -35,7 +35,7 @@ function MenuLayout({ title, children }) {
   )
 }
 
-function MenuItem({ label, icon, to }) {
+function MenuItem({ to, icon, label }) {
   return (
     <NavLink 
       className="flex items-center justify-start w-full p-2 pl-6 my-2 transition-colors duration-200 border-l-4 dark:text-white"

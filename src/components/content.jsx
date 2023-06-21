@@ -72,7 +72,7 @@ export function Content() {
           Compared to oct 1- otc 30, 2020
         </span>
       </div>
-      <GridLayout>
+      <Grid>
         <Card
           title='Project Reffered'
           hightlight={{ value: '12', percent: '22', icon: <ArrowUpIcon />, percentExtraClass: 'text-green-500' }}
@@ -127,12 +127,12 @@ export function Content() {
             { caption: 'Office', value: '23', icon: <ArrowUpIcon extraClass='text-green-500' />, percent: '41' },
           ]}
         />
-      </GridLayout>
+      </Grid>
     </div>
   )
 }
 
-function GridLayout({ children }) {
+function Grid({ children }) {
   return (
     <div className="grid grid-cols-1 gap-4 my-4 md:grid-cols-2 lg:grid-cols-3">
       {children}
